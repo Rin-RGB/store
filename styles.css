@@ -1,0 +1,43 @@
+.card {
+  transition: all 0.4s;
+  margin: 20px;
+  padding: 16px;
+  background-color: whitesmoke;
+  max-width: 200px;
+  border-radius: 15px;
+  border: 2px solid rgb(193.5, 193.5, 193.5);
+}
+.card__picture {
+  width: 100%;
+  display: block;
+}
+.card__picture__img {
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card__title {
+  color: #295040;
+  font-size: large;
+}
+.card__title::after {
+  content: "";
+  display: block;
+  background-color: #295040;
+  width: 25px;
+  height: 2px;
+  margin-top: 3px;
+}
+.card__description {
+  color: #757575;
+  font-size: medium;
+  margin-bottom: 0.7rem;
+}
+.card:hover {
+  background-color: white;
+  scale: 1.01;
+  box-shadow: 0 0 1em rgb(75.5619834711, 147.4380165289, 117.9504132231);
+}
+
+/*# sourceMappingURL=styles.css.map */
